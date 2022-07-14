@@ -1,0 +1,56 @@
+body {
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.social,
+.social__container,
+.social__content {
+  display: flex;
+}
+
+.social {
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.social__content {
+  position: relative;
+  padding: 0.5rem;
+  margin: 0.5rem 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: -2px -2px 8px #fafaff, 2px 2px 8px rgba(13, 12, 64, 0.2);
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.social__icon {
+  font-size: 1.2rem;
+}
+
+.bxl-instagram {
+  color: black !important;
+}
+
+.bxl-youtube {
+  color: black !important;
+}
+
+.bxl-discord {
+  color: black !important;
+}
+
+.social__content a {
+  text-decoration: none;
+}
+
+.social__content a[ping]:link,
+.social__content a[ping]:link,
+:link:not(cite) {
+  color: black !important;
+}
